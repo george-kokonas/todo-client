@@ -1,10 +1,8 @@
 import axios from "axios";
 import getTodos from "./getTodos";
 
-const DeleteTodo = async (todos) => {
-  const hasCompletedTodos = todos.some((item) => item.isCompleted);
+const DeleteTodo = async () => {
 
-  if (!hasCompletedTodos) return;
   try {
     await axios.delete(`https://todo-app-server-wbjv.onrender.com/todos/delete`);
     const data = await getTodos();

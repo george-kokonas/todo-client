@@ -4,11 +4,13 @@ import Button from "react-bootstrap/Button";
 import "./TodoLists.css";
 
 const TodoList = (props) => {
-  // console.log(props);
-  if (props.items.length < 1) return;
 
-  const deleteMultipleHandler = () => {
-    props.onDeleteItem();
+  const deleteMultipleHandler = async () => {
+    const hasCompletedTodos = props.items.some((item) => item.isCompleted);
+
+    if (!hasCompletedTodos) return;
+    
+    await props.onDeleteItem();
   };
 
   return (
