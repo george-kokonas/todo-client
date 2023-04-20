@@ -8,7 +8,7 @@ const PostTodo = async (taskText) => {
   };
 
   try {
-    await axios.post("https://backend-todo.herokuapp.com/todos/create", newTodo);
+    await axios.post("https://todo-app-server-wbjv.onrender.com/todos/create", newTodo);
     const data = await getTodos();
     return data;
   } catch (error) {

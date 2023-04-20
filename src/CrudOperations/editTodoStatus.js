@@ -9,7 +9,7 @@ const EditTodoStatus = async (todos, markedItemId) => {
 
   try {
     await axios.put(
-      `https://backend-todo.herokuapp.com/todos/updateStatus/${markedItemId}`,
+      `https://todo-app-server-wbjv.onrender.com/todos/updateStatus/${markedItemId}`,
       {
         itemStatus,
       }

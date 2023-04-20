@@ -6,7 +6,7 @@ const DeleteTodo = async (todos) => {
 
   if (!hasCompletedTodos) return;
   try {
-    await axios.delete(`https://backend-todo.herokuapp.com/todos/delete`);
+    await axios.delete(`https://todo-app-server-wbjv.onrender.com/todos/delete`);
     const data = await getTodos();
     return data;
   } catch (error) {

@@ -4,7 +4,7 @@ import getTodos from "./getTodos";
 const EditTodo = async (taskObj) => {
   const { id, newText } = taskObj;
   try {
-    await axios.put(`https://backend-todo.herokuapp.com/todos/update/${id}`, { newText });
+    await axios.put(`https://todo-app-server-wbjv.onrender.com/todos/update/${id}`, { newText });
     const data = await getTodos();
     return data;
   } catch (error) {
