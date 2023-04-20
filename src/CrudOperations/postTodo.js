@@ -12,7 +12,7 @@ const PostTodo = async (taskText) => {
     const data = await getTodos();
     return data;
   } catch (error) {
-    alert("Unable to edit...");
+    alert("Unable add new todo...");
     console.log(error);
   }
 };
