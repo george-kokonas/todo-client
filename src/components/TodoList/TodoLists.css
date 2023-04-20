@@ -1,0 +1,42 @@
+.container-ul {
+  display: block;
+}
+
+.delete-checked-btn {
+  margin-left: 80%;
+}
+
+@media only screen and (max-width: 806px) {
+  .delete-checked-btn {
+    margin-left: 70%;
+    width: 20vh;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .delete-checked-btn {
+    margin-left: 70%;
+    width: 20vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .delete-checked-btn {
+    margin-left: 70%;
+    width: 19vh;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .delete-checked-btn {
+    margin-left: 55%;
+    width: 19vh;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .delete-checked-btn {
+    margin-left: 45%;
+    width: 19vh;
+  }
+}

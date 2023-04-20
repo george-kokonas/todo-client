@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container-main {
+  background-color: rgb(6, 96, 159);
+  position: absolute;
+  font-size: larger;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+
+.container-list {
+  background-color: rgba(242, 242, 242, 0.824);
+  width: 50rem;
+  max-width: 90%;
+  margin: 3rem auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}

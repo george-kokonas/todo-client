@@ -1,0 +1,144 @@
+.form-container {
+  margin: 0.5rem 0;
+}
+
+.form-container form {
+  padding: 1rem;
+}
+
+.form-container h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  font-size: xx-large;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-container input {
+  background-color: azure;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  height: 2rem;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.form-container button {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.form-container input:focus {
+  outline: none;
+  background: #e2e2e2;
+  border-color: rgba(16, 63, 120, 0.61);
+}
+
+#label-inp {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+#infos {
+  font-size: 15px;
+  font-style: italic;
+  opacity: 0.6;
+  margin-left: 60%;
+}
+
+@media only screen and (max-width: 700px) {
+  .form-container button {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+  }
+
+  #infos {
+    display: block;
+    justify-content: center;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-left: 45%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .form-container button {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+  }
+
+  #infos {
+    display: block;
+    justify-content: center;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .form-container button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+  }
+
+  #infos {
+    display: block;
+    justify-content: center;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .form-container button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+  }
+
+  #infos {
+    display: block;
+    justify-content: center;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-left: 5%;
+  }
+}
